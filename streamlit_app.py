@@ -91,6 +91,7 @@ def classify(num):
 
 def main():
     #titulo
+    st.markdown("# ** TRABAJO FINAL - Publicación en Streamlit On Line**")
     st.title('Modelamiento de "Heart Diseases"')
     #titulo de sidebar
     st.sidebar.header('User Input Parameters')
@@ -174,8 +175,8 @@ def main():
     option = [nombre_modelo] 
     model = st.sidebar.selectbox('Modelo con la mejor precisión detectada', option)
 
-    st.markdown("### ** TRABAJO FINAL - Publicación en Streamlit On Line**\n**Alumno: Carlos Calero**\n**Curso: Talleres**")
-    
+    st.markdown("## **Alumno: Carlos Calero**\n## **Curso: Talleres**")
+
     st.write("")
     st.write("")
     st.subheader('Parámetros de entrada del usuario') 
