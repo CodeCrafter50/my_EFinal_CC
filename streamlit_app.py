@@ -1,9 +1,9 @@
 #------------------------------------------------------------------#
 # UPC - PROGRAMA DE CIENCIA DE DATOS FOR BUSINESS
 # CURSO: TALLERES
-# TRABAJO PARCIAL (DESPLIEGUE EN WEB PARA PUNTAJE ADICIONAL)
+# TRABAJO FINAL (DESPLIEGUE DE LA APLICACION EN STREAMLIT ON LINE)
 # ALUMNO: CARLOS CALERO
-# FECHA: 13.04.2025
+# FECHA: 24.04.2025
 #------------------------------------------------------------------#
 import subprocess
 import sys
