@@ -1,7 +1,11 @@
 #------------------------------------------------------------------#
 # UPC - PROGRAMA DE CIENCIA DE DATOS FOR BUSINESS
 # CURSO: TALLERES
-# TRABAJO PARCIAL (PREGUNTAS 1 Y 2)
+# TRABAJO FINAL 
+# Definición del problema: 
+# Se tiene un dataframe con los datos de 1000 pacientes relacionados a la condición de salud (parámetros clínicos) y a los hábitos de consumo de alochol y de ejecrcicio físico, además del estado de su salud cardiaca.
+# Se busca crear un modelo que nos permita pronosticar si una persona sufre o no de enfermedad cardiaca (Heart desease).
+# Se eligió este caso, por ser uno de los más conociedos en la elaboración de modelos predictivos.
 # ALUMNO: CARLOS CALERO
 # FECHA: 13.04.2025
 #------------------------------------------------------------------#
