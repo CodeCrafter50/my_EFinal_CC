@@ -174,7 +174,7 @@ def main():
     option = [nombre_modelo] 
     model = st.sidebar.selectbox('Modelo con la mejor precisión detectada', option)
 
-    st.markdown("### **Alumno: Carlos Calero**\n### **Curso: Talleres**")
+    st.markdown("### **Alumno: Carlos Calero**\n### **Curso: Talleres**\n\n")
     
     st.subheader('Parámetros de entrada del usuario') 
     st.subheader(model)
