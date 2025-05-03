@@ -1,9 +1,9 @@
 #------------------------------------------------------------------#
 # UPC - PROGRAMA DE CIENCIA DE DATOS FOR BUSINESS
 # CURSO: TALLERES
-# TRABAJO PARCIAL (PREGUNTAS 3, 4 Y 5)
+# TRABAJO FINBAL (CONSTRUCCIÓN DEL MODELO)
 # ALUMNO: CARLOS CALERO
-# FECHA: 13.04.2025
+# FECHA: 24.04.2025
 #------------------------------------------------------------------#
 import subprocess
 import sys
@@ -104,6 +104,7 @@ preprocessor = ColumnTransformer(
 # 4) MODELAMIENTO CON 5 MODELOS DE CLASIFICACIÓN
 
 # Primero dividimos los datos en características (X) y variable objetivo (y)
+# y dividimos los datos en conjuntos de ENTRENAMIENTO y PRUEBAS
 X = df.drop(columns=[target_column], axis=1)
 y = df[[target_column]]
 X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, test_size=0.2, random_state=42)
@@ -195,7 +196,7 @@ print("Mejor precisión:", study.best_value)
 model_dir = r"D:\Python_ws\Talleres\TF\TFinal\models"
 os.makedirs(model_dir, exist_ok=True)
 
-# Entrenar el modelo SVM con los mejores hiperparámetros encontrados
+# Entrenar el modelo con los mejores hiperparámetros encontrados
 best_params = study.best_params
 if best_params["model"] == "SVM":
     best_model = SVC(C=best_params["C"], gamma=best_params["gamma"], kernel=best_params["kernel"])
