@@ -176,7 +176,9 @@ def main():
 
     st.markdown("### **Alumno: Carlos Calero**\n### **Curso: Talleres**")
     
-    st.subheader('\n\nParámetros de entrada del usuario') 
+    st.write("")
+    st.write("")
+    st.subheader('Parámetros de entrada del usuario') 
     st.subheader(model)
     st.write(df)
 
